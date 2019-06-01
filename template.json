@@ -1,0 +1,137 @@
+{
+	"user_id": "owner@domain.com",
+	"software_version": "0.1",
+	"file_encryption": {
+		"enabled": true,
+		"password": "ee26b0dd4af7e749aa1a8ee3c10ae9923f618980772e473f8819a5d4940e0db27ac185f8a0e1d5f84f88bc887fd67b143732c304cc5fa9ad8e6f57f50028a8ff"
+	},
+	"attachements_encryption": {
+		"enabled": true,
+		"password": "ee26b0dd4af7e749aa1a8ee3c10ae9923f618980772e473f8819a5d4940e0db27ac185f8a0e1d5f84f88bc887fd67b143732c304cc5fa9ad8e6f57f50028a8ff"
+	},
+	"last_edit_date": "1520133778",
+	"name": "My Task",
+	"description": "This file aims to make it possible to backup, export or import projects with an easy format to parse for offline managment. Might be useful for creating an offline desktop client.",
+	"tags": [
+		{
+			"name": "validated",
+			"color": "green"
+		},
+		{
+			"name": "warning",
+			"color": "orange"
+		},
+		{
+			"name": "info",
+			"color": "0000ff"
+		}
+	],
+	"users": [
+		{
+			"user_id": "owner@domain.com",
+			"email": "owner@domain.com",
+			"name": "Owner"
+		},
+		{
+			"user_id": "jacko_22@example.com",
+			"email": "jacko_22@example.com",
+			"name": "Jack"
+		},
+		{
+			"user_id": "sam_56@example.com",
+			"email": "sam_56@example.com",
+			"name": "Sam"
+		}
+	],
+	"sections": [
+		{
+			"user_id": "owner@domain.com",
+			"name": "Ideas",
+			"description": "",
+			"icon": "iconSectionIdeaProductivity",
+			"color": "d93651",
+			"due_date": "1520233778",
+			"completed": false,
+			"tasks": [
+				{
+					"name": "A simple demo task",
+					"description": "My simple demo task.",
+					"checklist": [
+						{
+							"complete": false,
+							"value": "My check item."
+						},
+						{
+							"complete": true,
+							"value": "My checked item."
+						}
+					],
+					"tags": [
+						"validated",
+						"warning"
+					],
+					"assigned_to": [
+						"jacko_22@example.com",
+						"sam_56@example.com"
+					]
+				}
+			],
+			"attachments": [
+				{
+					"name": "myfile.json",
+					"type": "gdrive",
+					"path": "attachements/H98NN2A98NOHE2QE8HBO2N"
+				},
+				{
+					"name": "backups.zip",
+					"type": "normal",
+					"path": "attachements/JCQZRU98NRBYCZQ98RZQTH"
+				}
+			],
+			"events": [
+				{
+					"user_id": "sam_56@example.com",
+					"date": "1093821309",
+					"icon": "",
+					"type": "comment",
+					"title": "",
+					"value": "Hey, what's up on the project ?",
+					"likes": [
+						"owner@domain.com",
+						"jacko_22@example.com"
+					]
+				},
+				{
+					"user_id": "owner@domain.com",
+					"date": "1093821309",
+					"icon": "",
+					"type": "time_tracking",
+					"title": "",
+					"value": "{{USERNAME}} stopped working.",
+					"likes": []
+				},
+				{
+					"user_id": "owner@domain.com",
+					"icon": "",
+					"type": "time_tracking",
+					"title": "",
+					"value": "{{USERNAME}} started working.",
+					"likes": []
+				},
+				{
+					"user_id": "owner@domain.com",
+					"icon": "",
+					"type": "checklist_item",
+					"title": "Owner added a checklist item",
+					"value": "Créer le spot vidéo argumenté.",
+					"likes": []
+				}
+			]
+		},
+		{
+			"name": "Administration things",
+			"icon": "iconSectionFolderTechnology",
+			"color": "ff9f1a"
+		}
+	]
+}
