@@ -48,7 +48,7 @@
 			"user_id": "owner@domain.com",
 			"name": "Ideas",
 			"description": "",
-			"icon": "iconSectionIdeaProductivity",
+			"icon": "fa fa-lightbulb-o",
 			"color": "d93651",
 			"due_date": "1520233778",
 			"completed": false,
@@ -131,7 +131,17 @@
 		{
 			"name": "Administration things",
 			"icon": "iconSectionFolderTechnology",
-			"color": "ff9f1a"
+			"color": "ff9f1a",
+			"due_date": "",
+			"completed": false,
+			"tasks": [],
+			"attachments": [],
+			"events": []
+		}
+	],
+	"relationships": [
+		{
+			
 		}
 	]
 }
